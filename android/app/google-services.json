@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "534649698755",
+    "project_id": "bebo-efed5",
+    "storage_bucket": "bebo-efed5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534649698755:android:caefde1ae9f25a637de576",
+        "android_client_info": {
+          "package_name": "com.samuel.af_watches2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534649698755-7mdh9da010m4m8farask8egegqt0e5rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samuel.af_watches2",
+            "certificate_hash": "9dfad4af757821b5c9fc736d8aadad39d498328a"
+          }
+        },
+        {
+          "client_id": "534649698755-51mqnsb4btuk8u08hg4c80kjccl3b2c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcZmgXUDy_nDnKis4aCdpaua-VgIRedIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534649698755-51mqnsb4btuk8u08hg4c80kjccl3b2c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
