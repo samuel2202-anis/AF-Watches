@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const homeScreen ='/home_screen';
-const watchDetails='/watchDetails';
+const watchDetails='/details_screen';
 const welcomePage='/';
 const loginPage='/loginPage';
 const signUp='SignUpPage';

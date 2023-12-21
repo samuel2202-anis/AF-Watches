@@ -1,6 +1,4 @@
 import 'dart:async';
-
-import 'package:af_watches2/Presentation/Widgets/watch_banner.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:af_watches2/Data/models/watch.dart';
@@ -13,6 +11,7 @@ import '../../Data/services/bannerWatchOffline.dart';
 import '../Widgets/ProductsTitle.dart';
 import '../Widgets/product_filters.dart';
 import '../Widgets/watch_item.dart';
+import 'details_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -97,10 +96,16 @@ class _HomeScreenState extends State<HomeScreen> {
         scrollDirection: Axis.vertical,
         physics: const ScrollPhysics(),
         padding: EdgeInsets.zero,
-        itemCount: allWatches.length,
+                itemCount: allWatches.length,
         itemBuilder: (ctx, index) {
-          return WatchItem(
-            watch: allWatches[index],
+          return  InkWell(
+            onTap:()=> Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) =>  DetailsScreen(watch: allWatches[index],)),
+            ),
+            child: WatchItem(
+              watch: allWatches[index],
+            ),
           );
         });
   }

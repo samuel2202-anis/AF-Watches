@@ -38,8 +38,7 @@ class _BannerWatchOffline extends State<BannerWatchOffline> {
   checkUpdateBanner() {
     allWatches = BlocProvider.of<WatchesCubit>(context).getallWatches();
     allWatches.isNotEmpty ?
-    allWatches.first.name != bannerWatch.name ||
-        allWatches.first.image != bannerWatch.image
+    allWatches.first != bannerWatch
         ? setBannerWatch().then((value) =>setState(() { getFutureBannerWatch(); }))
         : null : null;
   }
@@ -82,6 +81,6 @@ class _BannerWatchOffline extends State<BannerWatchOffline> {
   @override
   Widget build(BuildContext context) {
 
- return WatchBanner(image: bannerWatch.image, name: bannerWatch.name);
+ return WatchBanner(bannerWatch: bannerWatch,);
   }
 }

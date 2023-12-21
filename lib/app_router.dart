@@ -3,11 +3,9 @@ import 'package:af_watches2/Data/repository/WatchRepo.dart';
 import 'package:af_watches2/Presentation/Screens/home_screen.dart';
 import 'package:af_watches2/Presentation/Screens/loginPage.dart';
  import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'Constants/strings.dart';
 import 'Presentation/Screens/SignUpPage.dart';
-import 'Presentation/Screens/watchDetails.dart';
+import 'Presentation/Screens/details_screen.dart';
 import 'Presentation/Screens/welcomePage.dart';
 
 class AppRouter {
@@ -27,7 +25,7 @@ class AppRouter {
       case welcomePage:
         return MaterialPageRoute(builder: (_)=>const WelcomePage(),);
       case watchDetails:
-        return MaterialPageRoute(builder: (_) => const WatchDetails());
+        return MaterialPageRoute(builder: (_) =>  DetailsScreen());
     }
   }
 }

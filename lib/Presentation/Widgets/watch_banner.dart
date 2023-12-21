@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import '../../Constants/strings.dart';
+import '../../Data/models/watch.dart';
+import '../Screens/details_screen.dart';
 class WatchBanner extends StatelessWidget {
-  final String image;
-  final String name;
-  const WatchBanner({super.key, required this.image, required this.name});
+
+  final Watch bannerWatch;
+  const WatchBanner({super.key, required this.bannerWatch});
 
 
   @override
@@ -25,7 +27,8 @@ class WatchBanner extends StatelessWidget {
           child: Row(
             children: [
               FadeInImage.assetNetwork(
-                image: image,
+                placeholderCacheHeight: 200,
+                image: bannerWatch.image,
                 placeholder: 'assets/loading.gif',
                 height: height*0.25,
                 width: width*0.5,
@@ -53,7 +56,7 @@ class WatchBanner extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   Text(
-                   name,
+                   bannerWatch.name,
                     style:const TextStyle(
                         color: backgroundWhite,
                         fontSize: 18,
@@ -61,7 +64,10 @@ class WatchBanner extends StatelessWidget {
                   ),
                   const SizedBox(height: 10),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () =>Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) =>  DetailsScreen(watch: bannerWatch,)),
+                    ),
                     style: TextButton.styleFrom(
                         backgroundColor: gradient3,
                         padding:
