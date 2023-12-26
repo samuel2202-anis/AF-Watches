@@ -15,6 +15,7 @@ AF Watches is a sleek and user-friendly mobile application designed to offer a c
 ## Screenshots
 
 ![5](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/1124b7ad-756e-48f3-8e37-94eda935cef2)
+<img src='[figure/rstudio.png](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/1124b7ad-756e-48f3-8e37-94eda935cef2)' width='125'>
 ![3](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/a0330769-74e5-4489-b22b-879ccddaf322)
 ![4](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/331c57d8-93cd-4dc1-971c-9677986e4d6e)
 ![22](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/25f1035d-8654-4fed-b266-f1280e44f1cb)
