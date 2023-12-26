@@ -14,12 +14,12 @@ AF Watches is a sleek and user-friendly mobile application designed to offer a c
 
 ## Screenshots
 
-<img src="https://github.com/samuel2202-anis/AF-Watches/assets/65362048/1124b7ad-756e-48f3-8e37-94eda935cef2" width=50% height=50%>
-![5](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/1124b7ad-756e-48f3-8e37-94eda935cef2)
-![3](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/a0330769-74e5-4489-b22b-879ccddaf322)
-![4](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/331c57d8-93cd-4dc1-971c-9677986e4d6e)
-![22](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/25f1035d-8654-4fed-b266-f1280e44f1cb)
-![2](https://github.com/samuel2202-anis/AF-Watches/assets/65362048/8c8c10f3-839e-40bd-a8f1-81e2160706fd)
+<img src="https://github.com/samuel2202-anis/AF-Watches/assets/65362048/1124b7ad-756e-48f3-8e37-94eda935cef2" width=30% height=30%>
+<img src="https://github.com/samuel2202-anis/AF-Watches/assets/65362048/a0330769-74e5-4489-b22b-879ccddaf322" width=30% height=30%>
+<img src="https://github.com/samuel2202-anis/AF-Watches/assets/65362048/331c57d8-93cd-4dc1-971c-9677986e4d6e" width=30% height=30%>
+<img src="https://github.com/samuel2202-anis/AF-Watches/assets/65362048/25f1035d-8654-4fed-b266-f1280e44f1cb" width=30% height=30%>
+<img src="https://github.com/samuel2202-anis/AF-Watches/assets/65362048/8c8c10f3-839e-40bd-a8f1-81e2160706fd" width=30% height=30%>
+
 
 
 ## Technology Used
