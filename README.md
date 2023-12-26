@@ -34,9 +34,13 @@ AF Watches is a sleek and user-friendly mobile application designed to offer a c
 Install af watches with npm
 
 1- Clone the repository: git clone https://github.com/samuel2202-anis/AF-Watches.git
+
 2-Navigate to the project directory: cd AF-Watches
+
 3-Install dependencies: flutter pub get
+
 4-Run the app on an emulator or physical device: flutter run
+
     
 ## License
 
